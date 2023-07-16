@@ -1,0 +1,329 @@
+/* CSS Reset Start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset End */
+
+/* google fonts */
+
+
+html, body {
+  font-family: 'Bruno Ace SC', cursive;
+  font-size: 16px;
+  line-height: 24px;
+  background: #000;
+  color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 128px;
+  line-height: 192px;
+  text-align: end;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.fs-0 {
+  font-size: 64px;
+  line-height: 96px;
+}
+
+.fs-1 {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.fs-2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.fs-3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.primary {
+  color: rgba(0, 255, 163, 1);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  padding-top: 40px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  width: 306px;
+}
+
+.mr-60 {
+  margin-right: 60px;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.header {
+  display: flex;
+  padding: 72px 0;
+}
+
+.header img {
+  width: 636px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+.title .contactBtn {
+  display: flex;
+  justify-content: end;
+}
+
+.title .button {
+  background: white;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.material-symbols-outlined {
+  margin-left: 4px;
+}
+
+.intro {
+  height: 920px;
+  background-image: url("./img/bg_intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.intro .container {
+  display: flex;
+  height: 600px;
+}
+
+.intro .content {
+  width: 526px;
+}
+
+.intro p {
+  margin-top: 36px;
+  margin-bottom: 32px;
+}
+
+.sparkle {
+  display: flex;
+}
+
+.sparkle img {
+  width: 32px;
+  margin-right: 16px;
+}
+
+.photo ul {
+  display: flex;
+  height: 746px;
+}
+
+.photo li {
+  margin-left: 24px;
+}
+
+.about {
+  background: white;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+  padding: 160px 0;
+}
+
+.about ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 636px;
+}
+
+.about li {
+  width: 306px;
+}
+
+.about .card {
+  padding: 16px;
+  border: 1px solid #E3E3E3
+}
+
+.about_me {
+  width: 526px;
+  margin-left: 134px;
+}
+
+.about_me h2 {
+  margin-bottom: 36px;
+}
+
+.contact {
+  height: 354px;
+  background-image: linear-gradient(rgba(5, 0, 20, 1), rgba(1, 2, 30, 0.89));
+}
+
+.contact .container {
+  display: flex;
+  align-items: center;
+  padding: 96px 0;
+}
+
+.contact .arrow_right {
+  margin-left: 16px;
+}
+
+.contact ul {
+  margin-left: 113px;
+  display: flex;
+  align-items: center;
+}
+
+.contact li img {
+  height: 162px;
+}
+
+.contact li .hover_img {
+  height: 176px;
+}
+
+.project {
+  background: white;
+  color: #000;
+}
+
+.project .container {
+  padding: 160px 0;
+}
+
+.project .title {
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.project h2 {
+  width: 746px;
+  margin-bottom: 16px;
+}
+
+.project_img {
+  display: flex;
+  gap: 24px;
+}
+
+.project_images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.project2 {
+  height: 196px;
+  display: flex;
+}
+
+.project .content {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project .moreBtn {
+  display: flex;
+}
+
+.project .button {
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+footer p {
+  padding: 40px 0;
+  text-align: center;
+}
