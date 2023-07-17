@@ -46,6 +46,9 @@ table {
 
 /* google fonts */
 
+* {
+  box-sizing: border-box;
+}
 
 html, body {
   font-family: 'Bruno Ace SC', cursive;
