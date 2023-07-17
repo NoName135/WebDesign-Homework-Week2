@@ -257,7 +257,7 @@ a {
 }
 
 .contact ul {
-  margin-left: 113px;
+  margin-left: 108px;
   display: flex;
   align-items: center;
 }
@@ -268,6 +268,10 @@ a {
 
 .contact li .hover_img {
   height: 176px;
+}
+
+.contact li .default_img {
+  margin-top: 8px;
 }
 
 .project {
