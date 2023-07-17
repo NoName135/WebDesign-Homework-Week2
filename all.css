@@ -257,21 +257,23 @@ a {
 }
 
 .contact ul {
-  margin-left: 108px;
+  margin-left: 92px;
   display: flex;
   align-items: center;
 }
 
+.contact li {
+  margin-left: 20px;
+}
+
 .contact li img {
-  height: 162px;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: all .3s;
 }
 
-.contact li .hover_img {
-  height: 176px;
-}
-
-.contact li .default_img {
-  margin-top: 8px;
+.contact li img:hover {
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
 }
 
 .project {
