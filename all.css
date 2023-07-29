@@ -8,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -113,14 +113,11 @@ a {
 
 .nav ul {
   display: flex;
+  justify-content: space-between;
 }
 
 .nav li {
   width: 306px;
-}
-
-.mr-60 {
-  margin-right: 60px;
 }
 
 .text-end {
@@ -162,7 +159,7 @@ a {
 }
 
 .intro {
-  height: 920px;
+  padding: 160px 0;
   background-image: url("./img/bg_intro.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +170,6 @@ a {
 
 .intro .container {
   display: flex;
-  height: 600px;
 }
 
 .intro .content {
@@ -196,7 +192,6 @@ a {
 
 .photo ul {
   display: flex;
-  height: 746px;
 }
 
 .photo li {
@@ -212,11 +207,12 @@ a {
 
 .about .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 160px 0;
 }
 
-.about ul {
+.about ol {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -234,7 +230,6 @@ a {
 
 .about_me {
   width: 526px;
-  margin-left: 134px;
 }
 
 .about_me h2 {
@@ -308,7 +303,6 @@ a {
 }
 
 .project2 {
-  height: 196px;
   display: flex;
 }
 
